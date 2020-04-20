@@ -6,6 +6,7 @@ const cors = require('cors');
 const morgan = require('morgan');
 const routes = require('./routes/routes');
 const { sequelize }  = require('./models');
+require("dotenv").config();
 
 // Test database connection
 (async () => {
