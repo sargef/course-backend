@@ -52,7 +52,7 @@ Course - restAPI - Backend (Nodejs) Frontend (React)
 <h2><b><p align="center">Install HeidiSQL and Setup data tables.</p></b></h2>
 
 <h4><b>1. Install sql platform Heidisql: https://www.heidisql.com/download.php</b></h4>
-<h4><b>2. Configure your Jawsdb credentials such as the following example.</b></h4>
+<h4><b>2. Configure your Jawsdb credentials such as the following example, then click on 'open' and save.</b></h4>
 
  </br>
  <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/configdatabasecredentials.png" ></a></p>
