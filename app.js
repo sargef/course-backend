@@ -6,6 +6,7 @@ const cors = require('cors');
 const morgan = require('morgan');
 const routes = require('./routes/routes');
 const { sequelize }  = require('./models');
+require("dotenv").config();
 
 // Test database connection
 (async () => {
@@ -63,7 +64,7 @@ app.use((err, req, res, next) => {
 });
 
 // set our port
-app.set('port', process.env.PORT || 5000);
+app.set('port', process.env.PORT || 3000);
 
 // start listening on our port
 const server = app.listen(app.get('port'), () => {
