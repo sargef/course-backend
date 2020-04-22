@@ -45,7 +45,7 @@ Course - restAPI - Backend (Nodejs) Frontend (React)
  <h4><b>4. While still in the heroku app, select 'resources' from the menu</b></h4>
  <h4><b>5. Select 'Jawsdb mysql'</b></h4>
 </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/jawsicon.png" width="420" height="155"></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/jawsicon.png"></a></p>
  </br>
 
 ----------------------------------------------------------------------------------------------------------------------------------------
