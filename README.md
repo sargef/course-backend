@@ -26,7 +26,6 @@ open your app and copy the url in the browser
 paste the url inside your client folder which is inside your config file in your editor like this and save:
 
 
-
 open up the app config details and inside app, select resources
 then select Jawsdb mysql
 
@@ -62,10 +61,10 @@ git push heroku master
 
 
 Check out your frontend app and try to sign up and create courses
-Remember to att at http address for images from online
+Remember to only add web addresses for images hosted online such as 'https://image.png'
 
-Any errors and cd back to your root folder and run 'heroku logs --tail'
-to check your terminal output of any errors
+Any errors just cd back to your root folder and run 'heroku logs --tail'
+to check your terminal output of any errors. It is usually pretty helpfull to help fix any bugs or gives you an idea on what to google for a solution.
 
 
 
