@@ -1,18 +1,5 @@
 Course - restAPI - Backend (Nodejs) Frontend (React)
  
-**create a jawsdb database within heroku**
-
-go to app creation on heroku, open 'open app'
-You should see this if it worked 'message: "Welcome to the REST API project!"'
-
-open your app and copy the url in the browser
-paste the url inside your client folder which is inside your config file in your editor like this and save:
-
-
-open up the app config details and inside app, select resources
-then select Jawsdb mysql
-
-
 
 
 **heroku config for backend**
@@ -104,18 +91,53 @@ to check your terminal output of any errors. It is usually pretty helpfull to he
  <h4><b>2. You should see this if it worked 'message: "Welcome to the REST API project!"'</b></h4>
  <h4><b>3. Copy and paste the url inside your client folder which is inside your config file in your editor like this and save: </b></h4>
  </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/clientbackendconfigurl.png" width="220" height="115"></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/clientbackendconfigurl.png" width="420" height="315"></a></p>
  </br>
  
  <h4><b>4. While still in the heroku app, select 'resources' from the menu</b></h4>
  <h4><b>5. Select 'Jawsdb mysql'</b></h4>
 </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/jawsicon.png" width="220" height="115"></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/jawsicon.png" width="420" height="315"></a></p>
  </br>
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-<h2><b><p align="center"></p></b></h2>
-</br>
+<h2><b><p align="center">Install HeidiSQL and Setup data tables.</p></b></h2>
+
+<h4><b>1. Install sql platform Heidisql: https://www.heidisql.com/download.php</b></h4>
+<h4><b>2. Create the following within heidisql once it is installed</b></h4>
+<h4><b>3. Create new database/b></h4>
+ 
+ </br>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/newdatabase.png" width="420" height="315"></a></p>
+ </br>
+
+<h4><b>4. add your credentials from jawsdb to connect to your app</b></h4>
+<h4><b>5. Click on open.</h4></b>
+<h4><b>6. Save</h4></b>
+<h4><b>7. right click on your new database on the left hand side of screen, select create new, then table.</h4></b>
+
+ </br>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/databasecreate.png" width="420" height="315"></a></p>
+ </br>
+
+<h4><b>8. Create 3 new tables like the following and add the same data fields as below.</h4></b>
+<h4><b>a. Users (Capital 'U')</h4></b>
+
+ </br>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/Users.png" width="420" height="315"></a></p>
+ </br>
+
+<h4><b>b. Courses (Capital 'C')</h4></b>
+
+ </br>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/coursesdb.png" width="420" height="315"></a></p>
+ </br>
+
+<h4><b>c. sqlite_sequence</h4></b>
+
+ </br>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/sqlite_sequence.png" width="420" height="315"></a></p>
+ </br>
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
@@ -134,22 +156,6 @@ to check your terminal output of any errors. It is usually pretty helpfull to he
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-
-
-**Push files to Heroku for app backend api**
-sign up for a heroku account
-
-**In termial**
-git init
-git add .
-git commit -m "first commit"
-heroku login
-heroku create
-heroku addons:create jawsdb
-git push heroku master
-
-
-
 
 
 
