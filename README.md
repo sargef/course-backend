@@ -52,23 +52,22 @@ Course - restAPI - Backend (Nodejs) Frontend (React)
 <h2><b><p align="center">Install HeidiSQL and Setup data tables.</p></b></h2>
 
 <h4><b>1. Install sql platform Heidisql: https://www.heidisql.com/download.php</b></h4>
-<h4><b>2. Configure your Jawsdb credentials such as the following example, then click on 'open' and save.</b></h4>
+<h4><b>2. Create the following within heidisql once it is installed.</b></h4>
+<h4><b>3. Create new database/b></h4>
+ 
+ </br>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/newdatabase.png"></a></p>
+ </br>
+
+<h4><b>4. Add your credentials from jawsdb to connect to your app like the following example.</b></h4>
 
  </br>
  <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/configdatabasecredentials.png" ></a></p>
  </br>
 
-<h4><b>3. Create the following within heidisql once it is installed</b></h4>
-<h4><b>4. Create new database/b></h4>
- 
- </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/newdatabase.png" ></a></p>
- </br>
-
-<h4><b>5. add your credentials from jawsdb to connect to your app</b></h4>
-<h4><b>6. Click on open.</h4></b>
-<h4><b>7. Save</h4></b>
-<h4><b>8. right click on your new database on the left hand side of screen, select create new, then table.</h4></b>
+<h4><b>5. Click on open.</h4></b>
+<h4><b>6. Save</h4></b>
+<h4><b>7. right click on your new database on the left hand side of screen, select create new, then table.</h4></b>
 
  </br>
  <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/databasecreate.png"></a></p>
