@@ -35,7 +35,7 @@ Course - restAPI - Backend (Nodejs) Frontend (React)
 <h2><b><p align="center">Configure SQL Database for backend</p></b></h2>
 </br>
 
- <h4><b>1. go to app creation on heroku, open 'open app' </b></h4>
+ <h4><b>1. Go to app creation on heroku, open 'open app' </b></h4>
  <h4><b>2. You should see this if it worked 'message: "Welcome to the REST API project!"'</b></h4>
  <h4><b>3. Copy and paste the url inside your client folder which is inside your config file in your editor like this and save: </b></h4>
  </br>
