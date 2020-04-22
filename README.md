@@ -74,7 +74,7 @@ Course - restAPI - Backend (Nodejs) Frontend (React)
 <h4><b>a. Users (Capital 'U')</h4></b>
 
  </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/usersdb.png" width="920" height="350"></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/usersdb.png"></a></p>
  </br>
  
  + id
