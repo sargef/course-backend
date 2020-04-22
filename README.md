@@ -1,22 +1,5 @@
 Course - restAPI - Backend (Nodejs) Frontend (React)
  
- ** Get files**
-download files
-inside root folder run 'npm install'
-
-**Push files to Heroku for app backend api**
-sign up for a heroku account
-
-**In termial**
-git init
-git add .
-git commit -m "first commit"
-heroku login
-heroku create
-heroku addons:create jawsdb
-git push heroku master
-
-
 **create a jawsdb database within heroku**
 
 go to app creation on heroku, open 'open app'
@@ -87,24 +70,8 @@ to check your terminal output of any errors. It is usually pretty helpfull to he
 <h1><p align="center"> :sparkles: This react app will require the following config to be hosted online :sparkles: </p></h1>
 <br />
 
-<h4><b>1. Download files </b></h4>
-<h4><b>2. </b></h4>
-<br />
-
-<br />
-<br />
-<h4><b>3. </h4></b>
 
 <p align="center"><a><img src="https://github.com/sargef/react-app-api-image-search/blob/master/src/images/config.png" width="220" height="115"></a></p>
-
-
-
-<h4><b>4. Run npm install in the root of the project.</h4></b>
-<h4><b>5. npm start.</h4></b>
-<h4><b>6. View on localhost port 3000 as suggested inside your terminal.</h4></b> :+1:
-<br />
-<br />
-<br />
 
 
 
@@ -114,14 +81,37 @@ to check your terminal output of any errors. It is usually pretty helpfull to he
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-<h2><b><p align="center">Inside root folder, run 'npm install'</p></b></h2>
+<h2><b><p align="center"Initialize and upload backend to Heroku</p></b></h2>
+
+<h4><b>1. Sign up for account on Heroku. https://heroku.com/ </b></h4>
+<h4><b>2. In your terminal, root folder, run 'npm install'</b></h4>
+<h4><b>3. run 'git init'</b></h4>
+<h4><b>4. 'git add'</b></h4>
+<h4><b>5. 'git commit -m "first commit'</b></h4>
+<h4><b>6. 'heroku login'</b></h4>
+<h4><b>7. 'heroku create'</b></h4>
+<h4><b>8. 'heroku addons:create jawsdb' (To create SQL Manager)</b></h4>
+<h4><b>9. 'git push heroku master'</b></h4>
+
 </br>
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-<h2><b><p align="center">'git init'</p></b></h2>
+<h2><b><p align="center">Configure SQL Database for backend</p></b></h2>
 </br>
 
+ <h4><b>1. go to app creation on heroku, open 'open app' </b></h4>
+ <h4><b>2. You should see this if it worked 'message: "Welcome to the REST API project!"'</b></h4>
+ <h4><b>3. Copy and paste the url inside your client folder which is inside your config file in your editor like this and save: </b></h4>
+ </br>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/clientbackendconfigurl.png" width="220" height="115"></a></p>
+ </br>
+ 
+ <h4><b>4. While still in the heroku app, select 'resources' from the menu</b></h4>
+ <h4><b>5. Select 'Jawsdb mysql'</b></h4>
+</br>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/jawsicon.png" width="220" height="115"></a></p>
+ </br>
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 <h2><b><p align="center"></p></b></h2>
