@@ -56,7 +56,7 @@ Course - restAPI - Backend (Nodejs) Frontend (React)
 <h4><b>3. Create new database/b></h4>
  
  </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/newdatabase.png" width="620" height="255"></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/newdatabase.png" ></a></p>
  </br>
 
 <h4><b>4. add your credentials from jawsdb to connect to your app</b></h4>
