@@ -8,7 +8,7 @@ Course - restAPI - Backend (Nodejs) Frontend (React)
 
 <h2><b><p align="center">React App</p></b></h2>
 
-<h1><p align="center"> :sparkles: This react app will require the following config to be hosted online :sparkles: </p></h1>
+<h1><p align="center">This react app will require the following config to be hosted online</p></h1>
 <br />
 
 <h2><b><p align="center">Download files</p></b></h2>
@@ -130,7 +130,7 @@ Course - restAPI - Backend (Nodejs) Frontend (React)
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-<h2><b><p align="center">Congratulation, your app is now live!</p></b></h2>
+<h2><b><p align="center"> :sparkles: Congratulation, your app is now live! :sparkles: </p></b></h2>
 </br>
 
 <h4><b>Check out your frontend app and try to sign up and create courses.</b></h4>
