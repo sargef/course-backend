@@ -18,6 +18,11 @@ git push heroku master
 **create a jawsdb database within heroku**
 heroku addons:create jawsdb
 go to app creation on heroku
+open your app and copy the url in the browser
+paste the url inside your client folder in your editor like this and save:
+
+
+
 open up the app and inside app, select resources
 then select Jawsdb mysql
 
@@ -25,7 +30,7 @@ then select Jawsdb mysql
 heroku git:clone -a YOUR-APP-NAME
 cd YOUR-APP-NAME
 
-copy details from jawsdb configuration and past into a .env file like this
+//copy details from jawsdb configuration and past into a .env file like this
 
 
 **heroku config for backend**
@@ -55,6 +60,9 @@ git push heroku master
 
 Check out your frontend app and try to sign up and create courses
 Remember to att at http address for images from online
+
+Any errors and cd back to your root folder and run 'heroku logs --tail'
+to check your terminal output of any errors
 
 
 
