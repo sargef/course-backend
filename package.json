@@ -7,7 +7,12 @@
     "start": "node app.js",
     "seed": "cross-env DB_ENABLE_LOGGING=true node './seed'"
   },
-  "keywords": [],
+  "engines": {
+    "node": "12.x"
+  },
+  "keywords": [
+    "heroku"
+  ],
   "author": "Sarah Shelley",
   "license": "ISC",
   "devDependencies": {
