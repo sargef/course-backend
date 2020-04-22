@@ -124,21 +124,39 @@ to check your terminal output of any errors. It is usually pretty helpfull to he
 <h4><b>a. Users (Capital 'U')</h4></b>
 
  </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/Users.png" width="620" height="215"></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/usersdb.png" width="620" height="215"></a></p>
  </br>
+ 
+ + id
+ + firstName
+ + lastName
+ + emailAddress
+ + password
+ + createdAt
+ + updatedAt
 
 <h4><b>b. Courses (Capital 'C')</h4></b>
 
  </br>
  <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/coursesdb.png"  ></a></p>
  </br>
++ id
++ title
++ description
++ estimatedTime
++ materialsNeeded
++ imagePic
++ createdAt
++ updatedAt
++ userId
 
 <h4><b>c. sqlite_sequence</h4></b>
 
  </br>
  <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/sqlite_sequence.png" ></a></p>
  </br>
-
++ name
++ seq
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 <h2><b><p align="center"></p></b></h2>
