@@ -65,7 +65,7 @@ Course - restAPI - Backend (Nodejs) Frontend (React)
 <h4><b>7. right click on your new database on the left hand side of screen, select create new, then table.</h4></b>
 
  </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/databasecreate.png" width="620" height="430"></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/databasecreate.png"></a></p>
  </br>
 
 ----------------------------------------------------------------------------------------------------------------------------------------
