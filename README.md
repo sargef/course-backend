@@ -130,7 +130,7 @@ Course - restAPI - Backend (Nodejs) Frontend (React)
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-<h2><b><p align="center"> :sparkles: Congratulation, your app is now live! :sparkles: </p></b></h2>
+<h2><b><p align="center"> :sparkles: Congratulations, your app is now live! :sparkles: </p></b></h2>
 </br>
 
 <h4><b>Check out your frontend app and try to sign up and create courses.</b></h4>
