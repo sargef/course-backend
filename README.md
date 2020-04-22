@@ -52,6 +52,7 @@ sqlite_sequence
 
 **cd into client folder**
 npm install
+npm run build
 git add .
 git commit -m "first commit"
 heroku login
