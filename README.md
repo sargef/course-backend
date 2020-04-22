@@ -91,13 +91,13 @@ to check your terminal output of any errors. It is usually pretty helpfull to he
  <h4><b>2. You should see this if it worked 'message: "Welcome to the REST API project!"'</b></h4>
  <h4><b>3. Copy and paste the url inside your client folder which is inside your config file in your editor like this and save: </b></h4>
  </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/clientbackendconfigurl.png" width="620" height="315"></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/clientbackendconfigurl.png" width="620" height="300"></a></p>
  </br>
  
  <h4><b>4. While still in the heroku app, select 'resources' from the menu</b></h4>
  <h4><b>5. Select 'Jawsdb mysql'</b></h4>
 </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/jawsicon.png" width="620" height="315"></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/jawsicon.png" width="620" height="115"></a></p>
  </br>
 
 ----------------------------------------------------------------------------------------------------------------------------------------
@@ -108,7 +108,7 @@ to check your terminal output of any errors. It is usually pretty helpfull to he
 <h4><b>3. Create new database/b></h4>
  
  </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/newdatabase.png" width="620" height="315"></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/newdatabase.png" width="620" height="115"></a></p>
  </br>
 
 <h4><b>4. add your credentials from jawsdb to connect to your app</b></h4>
@@ -117,26 +117,26 @@ to check your terminal output of any errors. It is usually pretty helpfull to he
 <h4><b>7. right click on your new database on the left hand side of screen, select create new, then table.</h4></b>
 
  </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/databasecreate.png" width="620" height="315"></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/databasecreate.png" width="620" height="115"></a></p>
  </br>
 
 <h4><b>8. Create 3 new tables like the following and add the same data fields as below.</h4></b>
 <h4><b>a. Users (Capital 'U')</h4></b>
 
  </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/Users.png" width="620" height="315"></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/Users.png" width="620" height="115"></a></p>
  </br>
 
 <h4><b>b. Courses (Capital 'C')</h4></b>
 
  </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/coursesdb.png" width="620" height="315"></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/coursesdb.png" width="620" height="115"></a></p>
  </br>
 
 <h4><b>c. sqlite_sequence</h4></b>
 
  </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/sqlite_sequence.png" width="620" height="315"></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/sqlite_sequence.png" width="620" height="115"></a></p>
  </br>
 
 
