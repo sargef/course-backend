@@ -6,7 +6,15 @@ const cors = require('cors');
 const morgan = require('morgan');
 const routes = require('./routes/routes');
 const { sequelize }  = require('./models');
-require("dotenv").config();
+
+// create the Express app
+const app = express();
+
+// Serve static files from React app
+// app.use(express.static(path.join(__dirname, 'client/build')));
+
+// set our port
+app.set('port', process.env.PORT || 5000);
 
 // Test database connection
 (async () => {
@@ -21,15 +29,26 @@ require("dotenv").config();
 // variable to enable global error logging
 const enableGlobalErrorLogging = process.env.ENABLE_GLOBAL_ERROR_LOGGING === 'true';
 
-
-// create the Express app
-const app = express();
-
 // parse JSON body
 app.use(express.json());
 
 // Enable cors
 app.use(cors());
+
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'DELETE, PUT, GET, POST');
+  res.header(
+    'Access-Control-Allow-Headers',
+    'Origin, X-Requested-With, Content-Type, Accept'
+  );
+  next();
+});
+
+// app.get('*', (req, res) => {
+//   res.sendFile(path.join(__dirname+'/client/build/index.html'));
+// });
+
 
 // setup morgan which gives us http request logging
 app.use(morgan('dev'));
@@ -63,8 +82,6 @@ app.use((err, req, res, next) => {
   });
 });
 
-// set our port
-app.set('port', process.env.PORT || 3000);
 
 // start listening on our port
 const server = app.listen(app.get('port'), () => {
