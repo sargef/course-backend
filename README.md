@@ -87,7 +87,7 @@ to check your terminal output of any errors. It is usually pretty helpfull to he
 <h1><p align="center"> :sparkles: This react app will require the following config to be hosted online :sparkles: </p></h1>
 <br />
 
-<h4><b>1. </b></h4>
+<h4><b>1. Download files </b></h4>
 <h4><b>2. </b></h4>
 <br />
 
@@ -107,31 +107,61 @@ to check your terminal output of any errors. It is usually pretty helpfull to he
 <br />
 
 
-<h2><b><p align="center">Create React App references below;</p></b></h2>
-</br>
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-<h2><b><p align="center">npm start.</p></b></h2>
+<h2><b><p align="center">Download files</p></b></h2>
 </br>
 
-
-<p align="center">Runs the app in the development mode.
-Open http://localhost:3000 to view it in the browser.</p>
-
-<p align="center">The page will reload if you make edits.
-You will also see any lint errors in the console.</p>
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-<h2><b><p align="center">npm test.</p></b></h2>
+<h2><b><p align="center">Inside root folder, run 'npm install'</p></b></h2>
 </br>
 
-
-<p align="center">Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.</p>
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-<h2><b><p align="center">npm run build.</p></b></h2>
+<h2><b><p align="center">'git init'</p></b></h2>
 </br>
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+<h2><b><p align="center"></p></b></h2>
+</br>
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+<h2><b><p align="center"></p></b></h2>
+</br>
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+<h2><b><p align="center"></p></b></h2>
+</br>
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+<h2><b><p align="center"></p></b></h2>
+</br>
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+**Push files to Heroku for app backend api**
+sign up for a heroku account
+
+**In termial**
+git init
+git add .
+git commit -m "first commit"
+heroku login
+heroku create
+heroku addons:create jawsdb
+git push heroku master
+
+
+
+
+
 
 <p align="center">Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.</p>
