@@ -117,7 +117,7 @@ to check your terminal output of any errors. It is usually pretty helpfull to he
 <h4><b>7. right click on your new database on the left hand side of screen, select create new, then table.</h4></b>
 
  </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/databasecreate.png" width="620" height="215"></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/databasecreate.png" width="620" height="515"></a></p>
  </br>
 
 <h4><b>8. Create 3 new tables like the following and add the same data fields as below.</h4></b>
@@ -130,13 +130,13 @@ to check your terminal output of any errors. It is usually pretty helpfull to he
 <h4><b>b. Courses (Capital 'C')</h4></b>
 
  </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/coursesdb.png" width="620" height="215"></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/coursesdb.png" width="620" height="415"></a></p>
  </br>
 
 <h4><b>c. sqlite_sequence</h4></b>
 
  </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/sqlite_sequence.png" width="620" height="215"></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/sqlite_sequence.png" width="620" height="415"></a></p>
  </br>
 
 
