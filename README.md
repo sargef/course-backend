@@ -6,31 +6,31 @@ inside root folder run 'npm install'
 
 **Push files to Heroku for app backend api**
 sign up for a heroku account
-.env file
 
+**In termial**
+git init
 git add .
 git commit -m "first commit"
 heroku login
 heroku create
+heroku addons:create jawsdb
 git push heroku master
 
 
 **create a jawsdb database within heroku**
-heroku addons:create jawsdb
-go to app creation on heroku
+
+go to app creation on heroku, open 'open app'
+You should see this if it worked 'message: "Welcome to the REST API project!"'
+
 open your app and copy the url in the browser
-paste the url inside your client folder in your editor like this and save:
+paste the url inside your client folder which is inside your config file in your editor like this and save:
 
 
 
-open up the app and inside app, select resources
+open up the app config details and inside app, select resources
 then select Jawsdb mysql
 
-**inside terminal**
-heroku git:clone -a YOUR-APP-NAME
-cd YOUR-APP-NAME
 
-//copy details from jawsdb configuration and past into a .env file like this
 
 
 **heroku config for backend**
@@ -53,11 +53,13 @@ sqlite_sequence
 **cd into client folder**
 npm install
 npm run build
+git init
 git add .
 git commit -m "first commit"
 heroku login
 heroku create "SOME_NAME_YOU_WANT_TO_CALL_YOUR_FRONTEND_APP"
 git push heroku master
+
 
 Check out your frontend app and try to sign up and create courses
 Remember to att at http address for images from online
