@@ -1,6 +1,4 @@
-Course - restAPI - Backend (Nodejs) Frontend (React)
- 
-<h1><b><p align="center">React App Api Image Search</p></b></h1>
+<h1><b><p align="center">Course - restAPI - Backend (Nodejs) Frontend (React)</p></b></h1>
 
 
 <h3><b><p align="center">Click to see live Course App!!</p></b></h3>
