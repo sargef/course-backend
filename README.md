@@ -130,7 +130,7 @@ to check your terminal output of any errors. It is usually pretty helpfull to he
 <h4><b>b. Courses (Capital 'C')</h4></b>
 
  </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/coursesdb.png" ></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/coursesdb.png" width="720" height="355" ></a></p>
  </br>
 
 <h4><b>c. sqlite_sequence</h4></b>
