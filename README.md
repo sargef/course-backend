@@ -1,51 +1,5 @@
 Course - restAPI - Backend (Nodejs) Frontend (React)
  
-
-
-**heroku config for backend**
-install sql platform for database configuration: heidisql https://www.heidisql.com/download.php
-create the following inside heidisql
-
-create a new database
-add your credentials from jawsdb to connect to your app
-click on open
-save 
-right click on database, select create new, then table
-
-**create 3 tables like the following**
-Users (capital U)
-then click on add (to select new columns)
-
-Courses (capital C)
-sqlite_sequence
-
-**cd into client folder**
-npm install
-npm run build
-git init
-git add .
-git commit -m "first commit"
-heroku login
-heroku create "SOME_NAME_YOU_WANT_TO_CALL_YOUR_FRONTEND_APP"
-git push heroku master
-
-
-Check out your frontend app and try to sign up and create courses
-Remember to only add web addresses for images hosted online such as 'https://image.png'
-
-Any errors just cd back to your root folder and run 'heroku logs --tail'
-to check your terminal output of any errors. It is usually pretty helpfull to help fix any bugs or gives you an idea on what to google for a solution.
-
-
-
-
-
-
-
-
-
-
-
 <h1><b><p align="center">React App Api Image Search</p></b></h1>
 
 
@@ -120,6 +74,8 @@ to check your terminal output of any errors. It is usually pretty helpfull to he
  <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/databasecreate.png" width="620" height="430"></a></p>
  </br>
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 <h4><b>8. Create 3 new tables like the following and add the same data fields as below.</h4></b>
 <h4><b>a. Users (Capital 'U')</h4></b>
 
@@ -134,6 +90,8 @@ to check your terminal output of any errors. It is usually pretty helpfull to he
  + password
  + createdAt
  + updatedAt
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 <h4><b>b. Courses (Capital 'C')</b></h4>
 
@@ -151,6 +109,8 @@ to check your terminal output of any errors. It is usually pretty helpfull to he
 + updatedAt
 + userId
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 <h4><b>c. sqlite_sequence</h4></b>
 
  </br>
@@ -161,32 +121,35 @@ to check your terminal output of any errors. It is usually pretty helpfull to he
 + seq
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-<h2><b><p align="center"></p></b></h2>
+<h2><b><p align="center">Configure Client Frontend React app</p></b></h2>
+</br>
+
+<h4><b>1. cd into client folder from root folder</b></h4>
+<h4><b>2. run 'npm install'</b></h4>
+<h4><b>3. run 'npm run build'</b></h4>
+<h4><b>4. 'git init'</b></h4>
+<h4><b>5. 'git add .'</b></h4>
+<h4><b>6. 'git commit -m "first commit"'</b></h4>
+<h4><b>7. 'heroku login'</b></h4>
+<h4><b>8. 'heroku create "SOME_NAME_YOU_WANT_TO_NAME_YOUR_APP_URL"'</b></h4>
+<h4><b>9. 'git push heroku master'</b></h4>
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+<h2><b><p align="center">Congratulation, your app is now live!</p></b></h2>
+</br>
+
+<h4><b>Check out your frontend app and try to sign up and create courses.</b></h4>
+<h4><b>Remember to only add web addresses for images hosted online such as 'https://image.png'</b></h4>
+
+<h4><b>Any errors just cd back to your root folder and run 'heroku logs --tail'</b></h4>
+
+<h4><b>to check your terminal output of any errors. It is usually pretty helpfull to help fix any bugs or gives you an idea on what to google for a solution.</b></h4>
 </br>
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-<h2><b><p align="center"></p></b></h2>
-</br>
 
-
-----------------------------------------------------------------------------------------------------------------------------------------
-<h2><b><p align="center"></p></b></h2>
-</br>
-
-
-----------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-<p align="center">Builds the app for production to the build folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.</p>
-
-<p align="center">The build is minified and the filenames include the hashes.</p>
-</br>
-<h3><p align="center">Your app is ready to be deployed!</p></h3>
-
-<p align="center">See the section about deployment for more information.</p>
 
 <h2>Learn More</h3>
 You can learn more in the Create React App documentation.
