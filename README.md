@@ -124,7 +124,7 @@ to check your terminal output of any errors. It is usually pretty helpfull to he
 <h4><b>a. Users (Capital 'U')</h4></b>
 
  </br>
- <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/usersdb.png" width="820" height="415"></a></p>
+ <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/usersdb.png" width="920" height="350"></a></p>
  </br>
  
  + id
