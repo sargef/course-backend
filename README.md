@@ -9,7 +9,7 @@
 <h1><p align="center">This react app will require the following config to be hosted online</p></h1>
 <br />
 
-<h1><p align="center">If you would like to learn how to deploy this app locally, click here: https://github.com/sargef/course-restapi-nodejs-backend-react-frontend/</p></h1>
+<h3><p align="center">If you would like to learn how to deploy this app locally, click here: https://github.com/sargef/course-restapi-nodejs-backend-react-frontend/</p></h3>
 <br />
 
 
