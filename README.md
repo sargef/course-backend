@@ -53,7 +53,7 @@ Course - restAPI - Backend (Nodejs) Frontend (React)
 
 <h4><b>1. Install sql platform Heidisql: https://www.heidisql.com/download.php</b></h4>
 <h4><b>2. Create the following within heidisql once it is installed.</b></h4>
-<h4><b>3. Create new database/b></h4>
+<h4><b>3. Create new database.</b></h4>
  
  </br>
  <p align="center"><a><img src="https://github.com/sargef/course-restapi-backend-nodejs-frontend-react-live/blob/master/assets/newdatabase.png"></a></p>
